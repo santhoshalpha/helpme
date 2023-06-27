@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    /* General Styles */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000; /* Change the text color to black */
+  /* General Styles */
+ 
+  background-size: cover;
+  background-position: center;
+  color: #000;
+
+}
+
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-image: url(images/aa.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+ 
+    .hero-content h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #000; /* Change the font color to black */
+    }
+  
+  
+  .hero-content p {
+    font-size: 24px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* About Section Styles */
+  #about {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+  }
+  
+  /* Services Section Styles */
+  #services {
+    background-color: #ebebeb;
+    padding: 40px 0;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+  }
+  
+  /* Form Styles */
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form textarea {
+    height: 120px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  
